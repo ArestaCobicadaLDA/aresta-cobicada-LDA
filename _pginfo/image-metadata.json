@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "assets": {
+    "image-mvwl55e1-y7hfar1yhd": {
+      "id": "image-mvwl55e1-y7hfar1yhd",
+      "source": "project:images/pic04.jpg",
+      "remembered": {},
+      "suggestions": {}
+    },
+    "image-mvwl55e1-v7nlkfm9jz": {
+      "id": "image-mvwl55e1-v7nlkfm9jz",
+      "source": "project:images/pic08.jpg",
+      "remembered": {},
+      "suggestions": {}
+    },
+    "image-mvwl86ed-8qeqaulq6sp": {
+      "id": "image-mvwl86ed-8qeqaulq6sp",
+      "source": "project:images/pic09.jpg",
+      "remembered": {},
+      "suggestions": {}
+    },
+    "image-mvwlrj1i-xj77x4y8tjp": {
+      "id": "image-mvwlrj1i-xj77x4y8tjp",
+      "source": "project:images/pic01.jpg",
+      "remembered": {},
+      "suggestions": {}
+    },
+    "image-mvwlrj1i-vbsbkkkscw": {
+      "id": "image-mvwlrj1i-vbsbkkkscw",
+      "source": "project:images/edificios.jpg",
+      "remembered": {},
+      "suggestions": {}
+    },
+    "image-mvwlzund-w015czyzql": {
+      "id": "image-mvwlzund-w015czyzql",
+      "source": "project:images/pic02.jpg",
+      "remembered": {},
+      "suggestions": {}
+    },
+    "image-mvwlzune-6tbcttk69p": {
+      "id": "image-mvwlzune-6tbcttk69p",
+      "source": "project:images/6udvap6udvap6ud.jpg",
+      "remembered": {},
+      "suggestions": {}
+    }
+  },
+  "sources": {
+    "project:images/pic04.jpg": {
+      "asset": "image-mvwl55e1-y7hfar1yhd",
+      "kind": "original",
+      "cropToken": null
+    },
+    "project:images/pic08.jpg": {
+      "asset": "image-mvwl55e1-v7nlkfm9jz",
+      "kind": "original",
+      "cropToken": null
+    },
+    "project:images/pic09.jpg": {
+      "asset": "image-mvwl86ed-8qeqaulq6sp",
+      "kind": "original",
+      "cropToken": null
+    },
+    "project:images/pic01.jpg": {
+      "asset": "image-mvwlrj1i-xj77x4y8tjp",
+      "kind": "original",
+      "cropToken": null
+    },
+    "project:images/edificios.jpg": {
+      "asset": "image-mvwlrj1i-vbsbkkkscw",
+      "kind": "original"
+    },
+    "project:images/edificios.w400-h400-c1308_768.jpg": {
+      "asset": "image-mvwlrj1i-vbsbkkkscw",
+      "kind": "crop",
+      "cropToken": "1308_768"
+    },
+    "project:images/pic02.jpg": {
+      "asset": "image-mvwlzund-w015czyzql",
+      "kind": "original",
+      "cropToken": null
+    },
+    "project:images/6udvap6udvap6ud.jpg": {
+      "asset": "image-mvwlzune-6tbcttk69p",
+      "kind": "original"
+    },
+    "project:images/6udvap6udvap6ud.w800-c0.jpg": {
+      "asset": "image-mvwlzune-6tbcttk69p",
+      "kind": "resize",
+      "cropToken": "0"
+    },
+    "project:images/6udvap6udvap6ud.w2400-c0.jpg": {
+      "asset": "image-mvwlzune-6tbcttk69p",
+      "kind": "resize",
+      "cropToken": "0"
+    }
+  }
+}
