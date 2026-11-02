@@ -82,7 +82,7 @@
                 <article id="main" class="container special">
                     <a class="image featured"></a>
                     <header>
-                        <h2 style="font-size: 60px;">Sobre Nós:</h2>
+                        <h2 style="font-size: 60px; position: relative;">Sobre Nós:</h2>
                         <p>Sabemos que construir ou renovar é sempre um passo importante. É por isso que, na Aresta Cobiçada Unipessoal  LDA , trabalhamos para facilitar todo o processo da sua obra. Somos apaixonados por construção e especialistas em revestimentos, garantindo que cada parede, piso ou estrutura reflete a máxima qualidade. O nosso compromisso é cumprir prazos, superar expectativas e tratar cada espaço como se fosse o nosso.</p>
                     </header>
                     <footer>
@@ -324,30 +324,7 @@
                                 <!-- ============================================================ -->
                                 <!-- BLOC TÉLÉPHONE (ICÔNE + NUMÉRO CLIQUABLE) -->
                                 <!-- ============================================================ -->
-                                <style>
-  .custom-phone-link {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 15px !important; /* Espace parfait entre le combiné et le numéro */
-    font-size: 26px !important; /* Taille du texte */
-    color: #ffffff !important;
-    text-decoration: none !important;
-    font-weight: bold !important;
-    transition: color 0.2s ease, transform 0.2s ease !important;
-    margin-bottom: 15px !important; /* Laisse respirer les icônes en dessous */
-  }
-  
-  .custom-phone-link i {
-    font-size: 28px !important; /* Taille du petit combiné */
-  }
-  
-  /* L'effet orange au passage de la souris, comme tes icônes */
-  .custom-phone-link:hover {
-    color: #df7366 !important;
-    transform: scale(1.05) !important;
-  }
-</style>
+                                <style>.custom-phone-link { display: inline-flex !important; align-items: center !important; justify-content: center !important; gap: 15px !important;  /* Espace parfait entre le combiné et le numéro */ font-size: 26px !important;  /* Taille du texte */ color: #ffffff !important; text-decoration: none !important; font-weight: bold !important; transition: color 0.2s ease, transform 0.2s ease !important; margin-bottom: 15px !important;  /* Laisse respirer les icônes en dessous */ } .custom-phone-link i { font-size: 28px !important;  /* Taille du petit combiné */ } /* L'effet orange au passage de la souris, comme tes icônes */.custom-phone-link:hover { color: #df7366 !important; transform: scale(1.05) !important; }</style>
                                 <div style="text-align: center; position: center absolute; top: 4px; left: 10px; right: -3px;">
                                     <!-- J'ai mis le préfixe +351 pour le Portugal dans le lien d'appel -->
                                     <a href="tel:+351 914 629 232" class="custom-phone-link" title="Ligar agora"> <i class="icon solid fa-phone" style="top: 1px; position: relative; bottom: 9px;"></i> <span styletext-align: center !important;="bottom: 42px; top: 41px; position: relative;">914 629 232</span> </a>
@@ -360,76 +337,7 @@
                                     <!-- ============================================================ -->
                                     <!-- BLOC COMPLET : ICNES (40PX / BLANC / HOVER ORANGE) + POP-UP -->
                                     <!-- ============================================================ -->
-                                    <style>
-  /* 1. Structure de la liste nettoyée */
-  .custom-icons-list {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 30px 0 !important;
-  }
-
-  /* 2. Écart augmenté pour bien séparer les icônes (15px au lieu de 3px) */
-  .custom-icons-list li {
-    display: inline-block !important;
-    margin: 0 15px !important; 
-    padding: 0 !important;
-  }
-
-  /* 3. Style des icônes : 40px, blanches par défaut */
-  .custom-icons-list a {
-    font-size: 40px !important;
-    color: #ffffff !important;
-    text-decoration: none !important;
-    transition: color 0.2s ease, transform 0.2s ease !important;
-    cursor: pointer !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    line-height: 1 !important;
-  }
-
-  /* 4. Effet au survol : passage à l'orange du site */
-  .custom-icons-list a:hover {
-    color: #df7366 !important;
-    transform: scale(1.1);
-  }
-
-  /* 5. Fenêtre Pop-up cachée */
-  .modal-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 100000;
-    justify-content: center;
-    align-items: center;
-  }
-  .modal-content {
-    background: #1c1c1c;
-    width: 90%;
-    max-width: 1100px;
-    padding: 40px 20px 20px;
-    border-radius: 12px;
-    position: relative;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  }
-  .modal-close {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 35px;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-    transition: color 0.2s;
-  }
-  .modal-close:hover {
-    color: #df7366;
-  }
-</style>
+                                    <style>/* 1. Structure de la liste nettoyée */.custom-icons-list { display: flex !important; justify-content: center !important; align-items: center !important; list-style: none !important; padding: 0 !important; margin: 30px 0 !important; } /* 2. Écart augmenté pour bien séparer les icônes (15px au lieu de 3px) */.custom-icons-list li { display: inline-block !important; margin: 0 15px !important; padding: 0 !important; } /* 3. Style des icônes : 40px, blanches par défaut */.custom-icons-list a { font-size: 40px !important; color: #ffffff !important; text-decoration: none !important; transition: color 0.2s ease, transform 0.2s ease !important; cursor: pointer !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; line-height: 1 !important; } /* 4. Effet au survol : passage à l'orange du site */.custom-icons-list a:hover { color: #df7366 !important; transform: scale(1.1); } /* 5. Fenêtre Pop-up cachée */.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #1c1c1c; width: 90%; max-width: 1100px; padding: 40px 20px 20px; border-radius: 12px; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5); } .modal-close { position: absolute; top: 10px; right: 20px; font-size: 35px; color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s; } .modal-close:hover { color: #df7366; }</style>
                                     <!-- LISTE DES ICNES -->
                                     <!-- FENÊTRE POP-UP GALERIE -->
                                     <div id="photoModal" class="modal-overlay">
@@ -500,205 +408,22 @@
                                     <!-- ============================================================ -->
                                     <!-- BLOC COMPLET : ICÔNES SÉPARÉES + POP-UP (VERSION ÉPURÉE) -->
                                     <!-- ============================================================ -->
-                                    <style>
-  /* Structure globale de la liste */
-  .custom-icons-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 30px 0;
-  }
-
-  /* Écartement de 25px entre chaque icône */
-  .custom-icons-list li {
-    margin: 0 25px;
-    padding: 0;
-  }
-
-  /* Style des icônes : 40px, blanches par défaut */
-  .custom-icons-list a {
-    font-size: 40px;
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.2s ease, transform 0.2s ease;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-  }
-
-  /* Effet au survol : passage à l'orange */
-  .custom-icons-list a:hover {
-    color: #df7366;
-    transform: scale(1.1);
-  }
-
-  /* Fenêtre Pop-up cachée */
-  .modal-overlay {
-    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.9); z-index: 100000;
-    justify-content: center; align-items: center;
-  }
-  .modal-content {
-    background: #1c1c1c; width: 90%; max-width: 1100px;
-    padding: 40px 20px 20px; border-radius: 12px; position: relative;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  }
-  .modal-close {
-    position: absolute; top: 10px; right: 20px; font-size: 35px;
-    color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s;
-  }
-  .modal-close:hover { color: #df7366; }
-</style>
+                                    <style>/* Structure globale de la liste */.custom-icons-list { display: flex; justify-content: center; align-items: center; list-style: none; padding: 0; margin: 30px 0; } /* Écartement de 25px entre chaque icône */.custom-icons-list li { margin: 0 25px; padding: 0; } /* Style des icônes : 40px, blanches par défaut */.custom-icons-list a { font-size: 40px; color: #ffffff; text-decoration: none; transition: color 0.2s ease, transform 0.2s ease; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; line-height: 1; } /* Effet au survol : passage à l'orange */.custom-icons-list a:hover { color: #df7366; transform: scale(1.1); } /* Fenêtre Pop-up cachée */.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #1c1c1c; width: 90%; max-width: 1100px; padding: 40px 20px 20px; border-radius: 12px; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5); } .modal-close { position: absolute; top: 10px; right: 20px; font-size: 35px; color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s; } .modal-close:hover { color: #df7366; }</style>
                                     <!-- LISTE DES ICÔNES PROPRE -->
                                     <!-- ============================================================ -->
                                     <!-- BLOC COMPLET : ICÔNES ESPACÉES (35PX) + POP-UP -->
                                     <!-- ============================================================ -->
-                                    <style>
-  /* Structure globale : gap de 35px forcé entre les icônes */
-  .custom-icons-list {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 35px !important; 
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 30px 0 !important;
-  }
-
-  .custom-icons-list li {
-    margin: 0 !important;
-    padding: 0 !important;
-    display: block !important;
-  }
-
-  /* Style des icônes : 40px, blanches par défaut */
-  .custom-icons-list a {
-    font-size: 40px !important;
-    color: #ffffff !important;
-    text-decoration: none !important;
-    transition: color 0.2s ease, transform 0.2s ease !important;
-    cursor: pointer !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    line-height: 1 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  /* Effet au survol : passage à l'orange du site */
-  .custom-icons-list a:hover {
-    color: #df7366 !important;
-    transform: scale(1.1) !important;
-  }
-
-  /* Fenêtre Pop-up cachée */
-  .modal-overlay {
-    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.9); z-index: 100000;
-    justify-content: center; align-items: center;
-  }
-  .modal-content {
-    background: #1c1c1c; width: 90%; max-width: 1100px;
-    padding: 40px 20px 20px; border-radius: 12px; position: relative;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  }
-  .modal-close {
-    position: absolute; top: 10px; right: 20px; font-size: 35px;
-    color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s;
-  }
-  .modal-close:hover { color: #df7366; }
-</style>
+                                    <style>/* Structure globale : gap de 35px forcé entre les icônes */.custom-icons-list { display: flex !important; justify-content: center !important; align-items: center !important; gap: 35px !important; list-style: none !important; padding: 0 !important; margin: 30px 0 !important; } .custom-icons-list li { margin: 0 !important; padding: 0 !important; display: block !important; } /* Style des icônes : 40px, blanches par défaut */.custom-icons-list a { font-size: 40px !important; color: #ffffff !important; text-decoration: none !important; transition: color 0.2s ease, transform 0.2s ease !important; cursor: pointer !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; line-height: 1 !important; margin: 0 !important; padding: 0 !important; } /* Effet au survol : passage à l'orange du site */.custom-icons-list a:hover { color: #df7366 !important; transform: scale(1.1) !important; } /* Fenêtre Pop-up cachée */.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #1c1c1c; width: 90%; max-width: 1100px; padding: 40px 20px 20px; border-radius: 12px; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5); } .modal-close { position: absolute; top: 10px; right: 20px; font-size: 35px; color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s; } .modal-close:hover { color: #df7366; }</style>
                                     <!-- LISTE DES ICÔNES -->
                                     <!-- ============================================================ -->
                                     <!-- BLOC COMPLET : ICÔNES ESPACÉES + POP-UP + SCRIPT -->
                                     <!-- ============================================================ -->
-                                    <style>
-  /* Structure globale : gap de 35px forcé entre les icônes */
-  .custom-icons-list {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 35px !important; 
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 30px 0 !important;
-  }
-  .custom-icons-list li { margin: 0 !important; padding: 0 !important; display: block !important; }
-  
-  /* Style des icônes : 40px, blanches par défaut, orange au survol */
-  .custom-icons-list a {
-    font-size: 40px !important; color: #ffffff !important;
-    text-decoration: none !important; transition: color 0.2s ease, transform 0.2s ease !important;
-    cursor: pointer !important; display: inline-flex !important;
-    align-items: center !important; justify-content: center !important;
-    line-height: 1 !important; margin: 0 !important; padding: 0 !important;
-  }
-  .custom-icons-list a:hover { color: #df7366 !important; transform: scale(1.1) !important; }
-
-  /* Fenêtre Pop-up cachée */
-  .modal-overlay {
-    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.95); z-index: 100000;
-    justify-content: center; align-items: center;
-  }
-  .modal-content {
-    background: transparent; width: 95%; max-width: 1200px;
-    padding: 20px 0; position: relative;
-  }
-  .modal-close {
-    position: absolute; top: -40px; right: 10px; font-size: 45px;
-    color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s; z-index: 100001;
-  }
-  .modal-close:hover { color: #df7366; }
-</style>
+                                    <style>/* Structure globale : gap de 35px forcé entre les icônes */.custom-icons-list { display: flex !important; justify-content: center !important; align-items: center !important; gap: 35px !important; list-style: none !important; padding: 0 !important; margin: 30px 0 !important; } .custom-icons-list li { margin: 0 !important; padding: 0 !important; display: block !important; } /* Style des icônes : 40px, blanches par défaut, orange au survol */.custom-icons-list a { font-size: 40px !important; color: #ffffff !important; text-decoration: none !important; transition: color 0.2s ease, transform 0.2s ease !important; cursor: pointer !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; line-height: 1 !important; margin: 0 !important; padding: 0 !important; } .custom-icons-list a:hover { color: #df7366 !important; transform: scale(1.1) !important; } /* Fenêtre Pop-up cachée */.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: transparent; width: 95%; max-width: 1200px; padding: 20px 0; position: relative; } .modal-close { position: absolute; top: -40px; right: 10px; font-size: 45px; color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s; z-index: 100001; } .modal-close:hover { color: #df7366; }</style>
                                     <!-- 1. LISTE DES ICÔNES -->
                                     <!-- ============================================================ -->
                                     <!-- BLOC COMPLET : ICÔNES ESPACÉES + POP-UP + SCRIPT -->
                                     <!-- ============================================================ -->
-                                    <style>
-  /* Structure globale : gap de 35px forcé entre les icônes */
-  .custom-icons-list {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 35px !important; 
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 30px 0 !important;
-  }
-  .custom-icons-list li { margin: 0 !important; padding: 0 !important; display: block !important; }
-  
-  /* Style des icônes : 40px, blanches par défaut, orange au survol */
-  .custom-icons-list a {
-    font-size: 40px !important; color: #ffffff !important;
-    text-decoration: none !important; transition: color 0.2s ease, transform 0.2s ease !important;
-    cursor: pointer !important; display: inline-flex !important;
-    align-items: center !important; justify-content: center !important;
-    line-height: 1 !important; margin: 0 !important; padding: 0 !important;
-  }
-  .custom-icons-list a:hover { color: #df7366 !important; transform: scale(1.1) !important; }
-
-  /* Fenêtre Pop-up cachée */
-  .modal-overlay {
-    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.95); z-index: 100000;
-    justify-content: center; align-items: center;
-  }
-  .modal-content {
-    background: transparent; width: 95%; max-width: 1200px;
-    padding: 20px 0; position: relative;
-  }
-  .modal-close {
-    position: absolute; top: -40px; right: 10px; font-size: 45px;
-    color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s; z-index: 100001;
-  }
-  .modal-close:hover { color: #df7366; }
-</style>
+                                    <style>/* Structure globale : gap de 35px forcé entre les icônes */.custom-icons-list { display: flex !important; justify-content: center !important; align-items: center !important; gap: 35px !important; list-style: none !important; padding: 0 !important; margin: 30px 0 !important; } .custom-icons-list li { margin: 0 !important; padding: 0 !important; display: block !important; } /* Style des icônes : 40px, blanches par défaut, orange au survol */.custom-icons-list a { font-size: 40px !important; color: #ffffff !important; text-decoration: none !important; transition: color 0.2s ease, transform 0.2s ease !important; cursor: pointer !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; line-height: 1 !important; margin: 0 !important; padding: 0 !important; } .custom-icons-list a:hover { color: #df7366 !important; transform: scale(1.1) !important; } /* Fenêtre Pop-up cachée */.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: transparent; width: 95%; max-width: 1200px; padding: 20px 0; position: relative; } .modal-close { position: absolute; top: -40px; right: 10px; font-size: 45px; color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s; z-index: 100001; } .modal-close:hover { color: #df7366; }</style>
                                     <!-- 1. LISTE DES ICÔNES -->
                                     <ul class="custom-icons-list" style="position: relative; right: -30px;">
                                         <li>
@@ -717,12 +442,7 @@
                                         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
                                         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
                                         <!-- 2. STYLE ET FENÊTRE CACHÉE -->
-                                        <style>
-  .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 100000; justify-content: center; align-items: center; }
-  .modal-content { background: transparent; width: 95%; max-width: 1200px; padding: 20px 0; position: relative; }
-  .modal-close { position: absolute; top: -40px; right: 10px; font-size: 45px; color: #ffffff; cursor: pointer; font-weight: bold; z-index: 100001; }
-  .modal-close:hover { color: #df7366; }
-</style>
+                                        <style>.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: transparent; width: 95%; max-width: 1200px; padding: 20px 0; position: relative; } .modal-close { position: absolute; top: -40px; right: 10px; font-size: 45px; color: #ffffff; cursor: pointer; font-weight: bold; z-index: 100001; } .modal-close:hover { color: #df7366; }</style>
                                         <div id="photoModal" class="modal-overlay">
                                             <div class="modal-content">
                                                 <span id="closeGalleryBtn" class="modal-close">&times;</span>
@@ -940,17 +660,7 @@
   window.onclick = function(event) { if (event.target == modal) { modal.style.display = 'none'; } }
 </script>
                                     <!-- ============================================================ -->
-                                    <style>
-  .tiago-signature a {
-    color: #ffffff !important;
-    text-decoration: none !important;
-    font-weight: bold !important;
-    transition: color 0.2s ease !important;
-  }
-  .tiago-signature a:hover {
-    color: #df7366 !important;
-  }
-</style>
+                                    <style>.tiago-signature a { color: #ffffff !important; text-decoration: none !important; font-weight: bold !important; transition: color 0.2s ease !important; } .tiago-signature a:hover { color: #df7366 !important; }</style>
                                     <div class="tiago-signature" style="text-align: center !important; justify-content: center !important; width: 100% !important; margin: 20px auto !important; color: #808080; font-size: 16px; letter-spacing: 1px; top: 173px; position: relative;">
                                         Design by : <a href="#">Tiago Ferreira</a>
                                     </div>
@@ -960,76 +670,7 @@
                                     <!-- ============================================================ -->
                                     <!-- BLOC COMPLET : ICNES (40PX / BLANC / HOVER ORANGE) + POP-UP -->
                                     <!-- ============================================================ -->
-                                    <style>
-  /* 1. Structure de la liste nettoyée */
-  .custom-icons-list {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 30px 0 !important;
-  }
-
-  /* 2. Écart de 3px autour de chaque icône */
-  .custom-icons-list li {
-    display: inline-block !important;
-    margin: 0 3px !important;
-    padding: 0 !important;
-  }
-
-  /* 3. Style des icônes : 40px, blanches par défaut */
-  .custom-icons-list a {
-    font-size: 40px !important;
-    color: #ffffff !important;
-    text-decoration: none !important;
-    transition: color 0.2s ease, transform 0.2s ease !important;
-    cursor: pointer !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    line-height: 1 !important;
-  }
-
-  /* 4. Effet au survol : passage à l'orange du site */
-  .custom-icons-list a:hover {
-    color: #df7366 !important;
-    transform: scale(1.1);
-  }
-
-  /* 5. Fenêtre Pop-up cachée */
-  .modal-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 100000;
-    justify-content: center;
-    align-items: center;
-  }
-  .modal-content {
-    background: #1c1c1c;
-    width: 90%;
-    max-width: 1100px;
-    padding: 40px 20px 20px;
-    border-radius: 12px;
-    position: relative;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  }
-  .modal-close {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 35px;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-    transition: color 0.2s;
-  }
-  .modal-close:hover {
-    color: #df7366;
-  }
-</style>
+                                    <style>/* 1. Structure de la liste nettoyée */.custom-icons-list { display: flex !important; justify-content: center !important; align-items: center !important; list-style: none !important; padding: 0 !important; margin: 30px 0 !important; } /* 2. Écart de 3px autour de chaque icône */.custom-icons-list li { display: inline-block !important; margin: 0 3px !important; padding: 0 !important; } /* 3. Style des icônes : 40px, blanches par défaut */.custom-icons-list a { font-size: 40px !important; color: #ffffff !important; text-decoration: none !important; transition: color 0.2s ease, transform 0.2s ease !important; cursor: pointer !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; line-height: 1 !important; } /* 4. Effet au survol : passage à l'orange du site */.custom-icons-list a:hover { color: #df7366 !important; transform: scale(1.1); } /* 5. Fenêtre Pop-up cachée */.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #1c1c1c; width: 90%; max-width: 1100px; padding: 40px 20px 20px; border-radius: 12px; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5); } .modal-close { position: absolute; top: 10px; right: 20px; font-size: 35px; color: #ffffff; cursor: pointer; font-weight: bold; transition: color 0.2s; } .modal-close:hover { color: #df7366; }</style>
                                     <!-- LISTE DES ICNES -->
                                     <!-- FENÊTRE POP-UP GALERIE -->
                                     <div id="photoModal" class="modal-overlay">
@@ -1143,12 +784,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <!-- 2. Style de la fenêtre -->
-        <style>
-  .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 100000; justify-content: center; align-items: center; }
-  .modal-content { background: transparent; width: 95%; max-width: 1200px; padding: 20px 0; position: relative; }
-  .modal-close { position: absolute; top: -40px; right: 10px; font-size: 45px; color: #ffffff; cursor: pointer; font-weight: bold; z-index: 100001; }
-  .modal-close:hover { color: #df7366; }
-</style>
+        <style>.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: transparent; width: 95%; max-width: 1200px; padding: 20px 0; position: relative; } .modal-close { position: absolute; top: -40px; right: 10px; font-size: 45px; color: #ffffff; cursor: pointer; font-weight: bold; z-index: 100001; } .modal-close:hover { color: #df7366; }</style>
         <!-- 3. Structure de la fenêtre pop-up -->
         <div id="photoModal" class="modal-overlay">
             <div class="modal-content">
