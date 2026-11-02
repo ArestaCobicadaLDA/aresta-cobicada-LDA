@@ -23,7 +23,9 @@
       "id": "image-mvwlrj1i-xj77x4y8tjp",
       "source": "project:images/pic01.jpg",
       "remembered": {},
-      "suggestions": {}
+      "suggestions": {},
+      "revision": "sha256:570fb8dc93de7702aa42ff6b9edae6194b4d41fcb1a3253398337a300718fa54",
+      "available": true
     },
     "image-mvwlrj1i-vbsbkkkscw": {
       "id": "image-mvwlrj1i-vbsbkkkscw",

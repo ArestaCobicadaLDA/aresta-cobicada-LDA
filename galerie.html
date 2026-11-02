@@ -1,0 +1,481 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Helios by HTML5 UP</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        <link rel="stylesheet" href="assets/css/main.css"/>
+        <noscript>
+            <link rel="stylesheet" href="assets/css/noscript.css"/>
+        </noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BBH+Bartle&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ADLaM+Display&display=auto">
+    </head>
+    <body class="homepage is-preload">
+        <!-- ============================================================ -->
+        <!-- GALERIE FAÇON PELLICULE PHOTO (FILM STRIP 35MM) -->
+        <!-- ============================================================ -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <style>
+  /* Le grand cadre noir de la pellicule */
+  .film-strip-gallery {
+    width: 100%;
+    max-width: 650px; /* Forme rectangulaire verticale comme un ruban */
+    height: 80vh;
+    margin: 40px auto;
+    background-color: #0a0a0a; /* Noir très profond */
+    padding: 0 50px; /* On laisse de la place sur les côtés pour les trous */
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+    overflow: hidden;
+  }
+
+  /* Les perforations de la pellicule (les petits carrés clairs) */
+  .film-strip-gallery::before,
+  .film-strip-gallery::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    /* On crée une répétition de rectangles qui ressemblent aux trous */
+    background-image: repeating-linear-gradient(to bottom, #dcdcdc 0px, #dcdcdc 15px, transparent 15px, transparent 30px);
+    z-index: 10;
+    opacity: 0.7;
+  }
+
+  /* Placement des perforations à gauche et à droite */
+  .film-strip-gallery::before { left: 15px; }
+  .film-strip-gallery::after { right: 15px; }
+
+  /* Le carrousel au centre */
+  .swiper.vertical-gallery {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Les photos (qui représentent les "cases" de la pellicule) */
+  .vertical-gallery .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vertical-gallery .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+    filter: contrast(1.05); /* Donne un tout petit effet "photo développée" */
+  }
+</style>
+        <div class="film-strip-gallery">
+            <div class="swiper vertical-gallery">
+                <div class="swiper-wrapper">
+                    <!-- 📸 TES PHOTOS ICI 📸 -->
+                    <div class="swiper-slide">
+                        <img src="images/pic11.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 11"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic12.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 12"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic13.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 13"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic14.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 14"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic15.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 15"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic16.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 16"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic17.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 17"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic19.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 19"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic20.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 20"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic21.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 21"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic22.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 22"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic23.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 23"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic24.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 24"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic25.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 25"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic26.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 26"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic27.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 27"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic28.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 28"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic29.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 29"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic30.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 30"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic31.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 31"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic32.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 32"/>
+                    </div>
+                    <div class="swiper-slide">
+</div>
+                    <div class="swiper-slide">
+                        <img src="images/pic34.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 34"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic35.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 35"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic36.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 36"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic37.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 37"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic38.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 38"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic39.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 39"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic40.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 40"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/pic41.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 60vh;" alt="Obra 41"/>
+                    </div>
+                    <!-- Copie-colle pour ajouter d'autres chantiers -->
+                </div>
+            </div>
+        </div>
+        <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    new Swiper('.vertical-gallery', {
+      direction: 'vertical',
+      loop: true,
+      spaceBetween: 40, /* Crée la fameuse bande noire épaisse entre chaque photo de la pellicule */
+      mousewheel: true,
+      grabCursor: true, /* Le curseur devient une petite main pour "attraper" le ruban */
+      speed: 600 /* Vitesse de glissement fluide */
+    });
+  });
+</script>
+        <!-- ============================================================ -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <!-- 1. Design de la fenêtre et de l'appareil photo -->
+            <style>.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #f0f4f4; width: 90%; max-width: 1200px; padding: 40px 20px 20px; border-radius: 8px; position: relative; } .modal-close { position: absolute; top: 5px; right: 15px; font-size: 35px; color: #483949; cursor: pointer; font-weight: bold; } .modal-close:hover { color: #df7366; } .camera-btn { display: inline-flex; flex-direction: column; align-items: center; cursor: pointer; transition: transform 0.2s ease; } .camera-btn:hover { transform: scale(1.1); } .camera-icon-circle { background: #df7366; color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); margin-bottom: 10px; }</style>
+            <!-- 2. L'appareil photo cliquable (MODE ANTI-BUG : SVG pur + Z-INDEX MASSIF) -->
+            <!-- 3. La fenêtre Pop-up -->
+            <div id="photoModal" class="modal-overlay">
+                <div class="modal-content">
+                    <span id="closeGalleryBtn" class="modal-close">&times;</span>
+                    <div class="swiper photoCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/pic01.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic02.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic03.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic04.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next photo-next" style="color: #df7366;"></div>
+                        <div class="swiper-button-prev photo-prev" style="color: #df7366;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4. Le script (Moteur) -->
+            <script>
+  new Swiper('.photoCarousel', {
+    loop: true, observer: true, observeParents: true,
+    slidesPerView: 1, spaceBetween: 15,
+    breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } },
+    navigation: { nextEl: '.photo-next', prevEl: '.photo-prev' }
+  });
+
+  const modal = document.getElementById('photoModal');
+  const btn = document.getElementById('openGalleryBtn');
+  const span = document.getElementById('closeGalleryBtn');
+
+  btn.onclick = function() { modal.style.display = 'flex'; }
+  span.onclick = function() { modal.style.display = 'none'; }
+  window.onclick = function(event) { if (event.target == modal) { modal.style.display = 'none'; } }
+</script>
+            <!-- Banner -->
+            <!-- Carousel -->
+            <!-- Main -->
+            <!-- 1. Design de la fenêtre et de l'appareil photo -->
+            <style>.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #f0f4f4; width: 90%; max-width: 1200px; padding: 40px 20px 20px; border-radius: 8px; position: relative; } .modal-close { position: absolute; top: 5px; right: 15px; font-size: 35px; color: #483949; cursor: pointer; font-weight: bold; } .modal-close:hover { color: #df7366; } /* Le look de l'appareil photo */.camera-btn { display: inline-flex; flex-direction: column; align-items: center; cursor: pointer; transition: transform 0.2s ease; } .camera-btn:hover { transform: scale(1.1); } /* Grossit au survol */.camera-icon-circle { background: #df7366; color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); margin-bottom: 10px; }</style>
+            <!-- 2. L'appareil photo cliquable -->
+            <div style="text-align: center; margin-bottom: 3em; margin-top: 2em;">
+</div>
+            <!-- 3. La fenêtre Pop-up -->
+            <div id="photoModal" class="modal-overlay">
+                <div class="modal-content">
+                    <span id="closeGalleryBtn" class="modal-close">&times;</span>
+                    <div class="swiper photoCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/pic01.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic02.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic03.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic04.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next photo-next" style="color: #df7366;"></div>
+                        <div class="swiper-button-prev photo-prev" style="color: #df7366;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4. Le script (Moteur) -->
+            <script>
+  new Swiper('.photoCarousel', {
+    loop: true, observer: true, observeParents: true,
+    slidesPerView: 1, spaceBetween: 15,
+    breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } },
+    navigation: { nextEl: '.photo-next', prevEl: '.photo-prev' }
+  });
+
+  const modal = document.getElementById('photoModal');
+  const btn = document.getElementById('openGalleryBtn');
+  const span = document.getElementById('closeGalleryBtn');
+
+  btn.onclick = function() { modal.style.display = 'flex'; }
+  span.onclick = function() { modal.style.display = 'none'; }
+  window.onclick = function(event) {
+    if (event.target == modal) { modal.style.display = 'none'; }
+  }
+</script>
+            <!-- 1. Design de la fenêtre et de l'appareil photo -->
+            <style>.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #f0f4f4; width: 90%; max-width: 1200px; padding: 40px 20px 20px; border-radius: 8px; position: relative; } .modal-close { position: absolute; top: 5px; right: 15px; font-size: 35px; color: #483949; cursor: pointer; font-weight: bold; } .modal-close:hover { color: #df7366; } /* Le look de l'appareil photo */.camera-btn { display: inline-flex; flex-direction: column; align-items: center; cursor: pointer; transition: transform 0.2s ease; } .camera-btn:hover { transform: scale(1.1); } /* Grossit au survol */.camera-icon-circle { background: #df7366; color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); margin-bottom: 10px; }</style>
+            <!-- 2. L'appareil photo cliquable -->
+            <div style="text-align: center; margin-bottom: 3em; margin-top: 2em;">
+                <div id="openGalleryBtn" class="camera-btn" style="position: absolute; top: 1113px; left: 1113px; background-size: 0; bottom: 1113px; right: 1113px;">
+</div>
+            </div>
+            <!-- 3. La fenêtre Pop-up -->
+            <div id="photoModal" class="modal-overlay">
+                <div class="modal-content">
+                    <span id="closeGalleryBtn" class="modal-close">&times;</span>
+                    <div class="swiper photoCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/pic01.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic02.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic03.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic04.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next photo-next" style="color: #df7366;"></div>
+                        <div class="swiper-button-prev photo-prev" style="color: #df7366;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4. Le script (Moteur) -->
+            <script>
+  new Swiper('.photoCarousel', {
+    loop: true, observer: true, observeParents: true,
+    slidesPerView: 1, spaceBetween: 15,
+    breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } },
+    navigation: { nextEl: '.photo-next', prevEl: '.photo-prev' }
+  });
+
+  const modal = document.getElementById('photoModal');
+  const btn = document.getElementById('openGalleryBtn');
+  const span = document.getElementById('closeGalleryBtn');
+
+  btn.onclick = function() { modal.style.display = 'flex'; }
+  span.onclick = function() { modal.style.display = 'none'; }
+  window.onclick = function(event) {
+    if (event.target == modal) { modal.style.display = 'none'; }
+  }
+</script>
+            <section class="carousel" style="padding-right: 5px;">
+                <!-- 1. Style Swiper -->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+                <style>.myCarousel article { background: #fff; padding: 2em 1em; border-radius: 8px; text-align: center; height: 100%; } .myCarousel article img { width: 100%; border-radius: 4px; margin-bottom: 1.5em; object-fit: cover; height: 200px; } .swiper-button-next, .swiper-button-prev { color: #df7366; } /* Couleur orange du thème */</style>
+                <!-- 2. Boîte du carrousel -->
+                <!-- 3. Moteur Swiper -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                <script>
+  new Swiper('.myCarousel', {
+    loop: true,
+    slidesPerView: 1, /* 1 carte sur téléphone */
+    spaceBetween: 20,
+    breakpoints: {
+      768: { slidesPerView: 2 }, /* 2 cartes sur tablette */
+      1024: { slidesPerView: 3 } /* 3 cartes sur PC */
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
+</script>
+            </section>
+            <!-- Features -->
+            <!-- Footer -->
+            <!-- 1. Design de la fenêtre pop-up et de l'icône appareil photo seule -->
+            <style>.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #f0f4f4; width: 90%; max-width: 1200px; padding: 40px 20px 20px; border-radius: 8px; position: relative; } .modal-close { position: absolute; top: 5px; right: 15px; font-size: 35px; color: #483949; cursor: pointer; font-weight: bold; } .modal-close:hover { color: #df7366; } /* Style icône style réseau social */.camera-icon-only { display: inline-flex; justify-content: center; align-items: center; background: #df7366; color: white; width: 60px; height: 60px; border-radius: 50%; cursor: pointer; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s ease, background-color 0.2s ease; } .camera-icon-only:hover { transform: scale(1.1); background: #ef8376; }</style>
+            <!-- 2. L'icône appareil photo seule et cliquable -->
+            <div style="text-align: center; margin-bottom: 3em; margin-top: 2em; position: relative; z-index: 999999;">
+</div>
+            <!-- 3. La fenêtre Pop-up -->
+            <div id="photoModal" class="modal-overlay">
+                <div class="modal-content">
+                    <span id="closeGalleryBtn" class="modal-close">&times;</span>
+                    <div class="swiper photoCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/pic01.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic02.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic03.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic04.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next photo-next" style="color: #df7366;"></div>
+                        <div class="swiper-button-prev photo-prev" style="color: #df7366;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4. Le script -->
+            <script>
+  new Swiper('.photoCarousel', {
+    loop: true, observer: true, observeParents: true,
+    slidesPerView: 1, spaceBetween: 15,
+    breakpoints: { 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } },
+    navigation: { nextEl: '.photo-next', prevEl: '.photo-prev' }
+  });
+
+  const modal = document.getElementById('photoModal');
+  const btn = document.getElementById('openGalleryBtn');
+  const span = document.getElementById('closeGalleryBtn');
+
+  btn.onclick = function() { modal.style.display = 'flex'; }
+  span.onclick = function() { modal.style.display = 'none'; }
+  window.onclick = function(event) { if (event.target == modal) { modal.style.display = 'none'; } }
+</script>
+            <div id="footer" style="padding-top: 555px; top: 6px; padding-bottom: 1px; margin-bottom: -208px; padding-left: 33px;">
+                <div class="container">
+                    <div class="row">
+                        <!-- Tweets -->
+                        <!-- Posts -->
+                        <!-- Photos -->
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="position: absolute; top: 16px;">
+                            <!-- Contact -->
+                            <section class="contact" style="height: 76px; bottom: 14px;">
+                                <header>
+</header>
+                                <h3 style="top: 21px; bottom: 18px; left: 52px; position: absolute; right: 77px;"> Rua da Cabine, 352, 4585-480 Sobreira (Paredes), Portugal</h3>
+                                <p style="font-style: italic; text-transform: uppercase; font-size: 37px; position: absolute; right: 376px; bottom: 20px; padding-right: 0px; margin-right: -109px; top: 80px; left: 244px;">914 629 232</p>
+                                <ul class="icons" style="height: -51px; position: absolute; bottom: 3px; top: 119px; right: 186px; padding-bottom: 0px; margin-bottom: 223px; font-size: 27px; background-color: rgba(0, 0, 0, 0); left: 177px;">
+                                    <li>
+</li>
+                                    <li></li>
+                                </ul>
+                            </section>
+                            <!-- Copyright -->
+                            <div class="copyright">
+                                <ul class="menu">
+                                    <li style="bottom: 19px; top: 420px; position: absolute; right: 190px; left: 164px;">&copy; 2026 Aresta Cobiçada Unipessoal LDA. All rights reserved.</li>
+                                    <li style="top: 441px; bottom: 98px; position: absolute; right: 285px; left: 205px;">Design: Tiago Ferreira</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 1. Design de la fenêtre et de l'appareil photo -->
+            <style>.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); z-index: 100000; justify-content: center; align-items: center; } .modal-content { background: #f0f4f4; width: 90%; max-width: 1200px; padding: 40px 20px 20px; border-radius: 8px; position: relative; } .modal-close { position: absolute; top: 5px; right: 15px; font-size: 35px; color: #483949; cursor: pointer; font-weight: bold; } .modal-close:hover { color: #df7366; } .camera-btn { display: inline-flex; flex-direction: column; align-items: center; cursor: pointer; transition: transform 0.2s ease; } .camera-btn:hover { transform: scale(1.1); } .camera-icon-circle { background: #df7366; color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); margin-bottom: 10px; }</style>
+            <!-- 2. L'appareil photo cliquable (MODE ANTI-BUG : SVG pur + Z-INDEX MASSIF) -->
+            <!-- 3. La fenêtre Pop-up -->
+            <div id="photoModal" class="modal-overlay">
+                <div class="modal-content">
+                    <span id="closeGalleryBtn" class="modal-close">&times;</span>
+                    <div class="swiper photoCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/pic01.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic02.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic03.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/pic04.jpg" style="width: 100%; border-radius: 8px; object-fit: cover; height: 300px;"/>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next photo-next" style="color: #df7366;"></div>
+                        <div class="swiper-button-prev photo-prev" style="color: #df7366;"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4. Le script (Moteur) -->
+            <!-- 1. Design de la fenêtre et de l'appareil photo -->
+            <!-- 2. L'appareil photo cliquable -->
+            <!-- 3. La fenêtre Pop-up -->
+            <!-- 4. Le script (Moteur) -->
+        </div>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
